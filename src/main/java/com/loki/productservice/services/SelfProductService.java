@@ -28,6 +28,7 @@ public class SelfProductService implements ProductService{
     public product createProduct(String title, String description, String image, String categoryTitle, double price) {
 
         product product = new product();
+
         product.setTitle(title);
         product.setDescription(description);
         product.setImageURL(image);
